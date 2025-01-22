@@ -1,0 +1,190 @@
+/* Sessão para os Elementos */
+body {
+    font-family: 'Montserrat';
+}
+
+h2, h3 {
+    font-family: 'Montserrat-Bold', sans-serif;
+}
+
+h2 {
+    text-align: center;
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+/* --- Início do Menu de Navegação(Navbar) --- */
+.navbar-brand {
+    font-family: 'Ubuntu';
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.navbar {
+    padding: 0 0 4.5rem;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+}
+/* --- Fim do Menu de Navegação(Navbar) --- */
+
+
+/* Sessão para as Classes */
+.container-fluid {
+    padding: 3% 15%;
+}
+
+.down-botton {
+    margin: 5% 3% 5% 0;
+}
+
+.image-cell {
+    width: 45%;
+    transform: rotate(25deg);
+    position: absolute;
+}
+
+.icon {
+    color: #fa5871;
+    margin-bottom: 2rem;
+    font-size: 3.5rem;
+}
+
+.icon:hover {
+    color: #dc3545;
+}
+
+
+.image-carrousel {
+    border: #fa5871 solid 5px;
+    border-radius: 50%;
+    width: 10%;
+}
+
+.caroucel-item {
+    padding: 7% 15%;
+}
+
+.press-rodape {
+    margin: 5px 5px;
+}
+
+.card-title-text-h1 {
+    font-family: 'Montserrat-Black', sans-serif;
+    font-size: 3rem;
+    font-weight: 900;
+    line-height: 1.5;
+}
+
+.main-title-text-heading {
+    font-family: 'Montserrat-Black', sans-serif;
+    font-size: 3rem;
+    font-weight: 900;
+    line-height: 1.5;
+}
+
+.cta-download {
+    padding: 10% 15%;
+    margin: 0 auto;
+    background-color: #051d35;
+    color: whitesmoke;
+}
+
+.unic-footer {
+    padding: 4% 20%;
+    margin: 0 auto;
+    background-color: #ffffff;
+    color: slategrey;
+}
+
+/* Sessão para as ID's */
+/* --- Header --- */
+#title {
+    background-color: #051d35;
+    color: white;
+}
+/* --- Fim do Header --- */
+
+/* --- Features --- */
+#features {
+    padding: 7% 15%;
+    background-color: white;
+    z-index: 1;
+    position: relative;
+}
+
+#feature-box {
+    text-align: center;
+    padding: 5%;
+}
+/* --- Fim das Features --- */
+
+/* --- Testimonials --- */
+#testimonials {
+    padding: 7% 15%;
+    background-color: #dc3545;
+    position: relative;
+    color: white;
+    text-align: center;
+}
+/* --- Fim das Testimonials --- */
+
+/* --- Press --- */
+#press {
+    background-color: #e04353;
+    text-align: center;
+    padding-bottom: 1rem;
+    position: relative;
+}
+/* --- Fim do Press --- */
+
+
+
+/* Sessão para as Media Queries */
+@media (min-width: 992px) {
+    .image-cell {
+        transform: rotate(25deg);
+        width: 18.5rem;
+    }
+
+    #title h1 {
+        text-align: left;
+        font-family: 'Montserrat-Black', sans-serif;
+        font-size: 2.5rem;
+        font-weight: 900;
+        line-height: 1.5;
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 992px) {
+    .image-cell {
+        transform: rotate(0);
+        width: 18.5em;
+        padding-top: 50px;
+        position: static;
+    }
+
+    .container-fluid {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #title h1 {
+        text-align: center;
+        font-family: 'Montserrat-Black', sans-serif;
+        font-size: 2.5rem;
+        font-weight: 900;
+        line-height: 1.5;
+        margin-bottom: 20px;
+    }
+}
