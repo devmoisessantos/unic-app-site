@@ -1,0 +1,228 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Unic Application</title>
+    <!-- Font-awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    
+    <!-- Import Bootstrap -->
+    <link href="/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    
+    <!-- Import CSS -->
+    <link rel="stylesheet" href="site/css/styles.css">
+  </head>
+  <body>
+    <header id="title">
+        <div class="container-fluid">
+            <nav class="navbar navbar-expand-lg navbar-dark" style="--bs-navbar-padding-x: 2rem; padding-left: 0rem !important; padding-right: 0rem !important;">
+                <a class="navbar-brand" href="" style="margin-top: 0.1rem !important;">Unic App</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" style="margin-bottom: 1rem; margin-top: 1rem;">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse text-center" id="navbarSupportedContent">
+                    <ul class="navbar-nav" style="margin-left: auto !important;">
+                        <li class="nav-item bg-danger">
+                            <a class="nav-link" href="">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Produto</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Sobre</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Blog</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav> 
+
+            <div class="row">
+                <div class="col-lg-6 col-sm-12">
+                    <h1 class="main-title-text-heading">Descubra o universo dos PittBulls e apaixone-se pelo companheiro ideal.</h1>
+                    <button class="btn btn-dark btn-sm down-botton" type="button">
+                        <i class="fa-brands fa-apple"></i> <span class="ml-2">Baixar no Apple Store</span>
+                    </button>
+                    <button class="btn btn-outline-light btn-sm down-botton" type="button">
+                        <i class="fa-brands fa-google-play"></i> <span class="ml-2">Baixar no Google Play</span>
+                    </button>
+
+                </div>
+                <figure class="text-center col-lg-6 col-sm-12">
+                    <img class="image-cell" src="/assets/static/image-cell-pittbull.png" alt="Imagem de um pittbull">
+                </figure>
+            </div>
+        </div>
+
+    </header>
+
+    <section id="features">
+        <div class="row text-center">
+            <div class="feature-box col-lg-4 mb-4">
+                <i class="icon fas fa-heart fa-lg"></i>
+                <h3 class="text-primary">Interface Intuitiva</h3>
+                <p>Desenvolvido para proporcionar a melhor experiência, até mesmo para os menos experientes.</p>
+            </div>
+
+            <div class="feature-box col-lg-4 mb-4">
+                <i class="icon fas fa-bullseye fa-spin fa-lg"></i>
+                <h3 class="text-primary">Beleza Incomparável</h3>
+                <p>Apresentamos os PittBulls mais excepcionais e encantadores.</p>
+            </div>
+
+            <div class="feature-box col-lg-4 mb-4">
+                <i class="icon fas fa-check-circle fa-lg"></i>
+                <h3 class="text-primary">Companheiros Ideais</h3>
+                <p>Conecte-se com o PittBull que melhor combina com você.</p>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="testimonials">
+
+        <!-- Carrousel Inicio -->
+        <div id="carousel-unicapp" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <h2>Uma experiência excepcional, o aplicativo superou minhas expectativas.</h2>
+                    <img class="image-carrousel" src="/assets/static/foto-banner.png" alt="">
+                    <em>Goiania, Goias</em>
+                </div>
+                <div class="carousel-item">
+                    <h2>Fantástico! Encontrei o companheiro perfeito através do app.</h2>
+                    <img class="image-carrousel" src="/assets/static/person-icon.png" alt="">
+                    <em>Londrina, Paraná</em>
+                </div>
+                <div class="carousel-item">
+                    <h2>Simples e eficaz, uma plataforma extremamente fácil de usar.</h2>
+                    <img class="image-carrousel" src="/assets/static/pngtree-man.png" alt="">
+                    <em>Brasilia, Distrito Federal</em>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carousel-unicapp" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carousel-unicapp" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        <!-- Fim do Carrousel -->
+
+        
+    </section>
+
+    <section id="press">
+        <img class="press-rodape"  src="/assets/static/1.png" alt="logo1">
+        <img class="press-rodape" src="/assets/static/2.png" alt="logo2">
+        <img class="press-rodape" src="/assets/static/3.png" alt="logo3">
+        <img class="press-rodape" src="/assets/static/4.png" alt="logo4">
+    </section>
+
+    <section id="pricing">
+        
+        <div class="container py-3">
+            <br>
+            <h2>Planos Flexíveis para Atender Todas as Necessidades</h2>
+            <p class="text-center">
+                Soluções acessíveis e personalizadas para você e seu companheiro.</p>
+            <br>
+            <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="card mb-4 rounded-3 shadow-sm">
+                        <div class="card-header py-3">
+                            <h4 class="my-0 fw-normal">Pro</h4>
+                        </div>
+                        <div class="card-body">
+                            <h1 class="card-title-text-h1 card-title pricing-card-title">R$10<small class="text-body-secondary fw-light">/mês</small></h1>
+                            <ul class="list-unstyled mt-3 mb-4">
+                                <li>Download Grátis</li>
+                                <li>5 Curtidas por dia</li>
+                                <li>10 Mensagens por dia</li>
+                                <li>40 Comentarios por dia</li>
+                            </ul>
+                            <button type="button" class="w-100 btn btn-lg btn-outline-dark">Inscreva-se</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="card mb-4 rounded-3 shadow-sm">
+                        <div class="card-header py-3">
+                            <h4 class="my-0 fw-normal">Plus</h4>
+                        </div>
+                        <div class="card-body">
+                            <h1 class="card-title pricing-card-title">R$25<small class="text-body-secondary fw-light">/mês</small></h1>
+                            <ul class="list-unstyled mt-3 mb-4">
+                                <li>15 Curtidas por dia</li>
+                                <li>50 Mensagens por dia</li>
+                                <li>40 Comentarios por dia</li>
+                                <li>Acesso ilimitado ao app</li>
+                            </ul>
+                            <button type="button" class="w-100 btn btn-lg btn-outline-dark">Inscreva-se</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-12">
+                    <div class="card mb-12 rounded-3 shadow-sm">
+                        <div class="card-header py-3 text-bg-danger border-primary">
+                            <h4 class="my-0 fw-normal">Premium</h4>
+                        </div>
+                        <div class="card-body">
+                            <h1 class="card-title-text-h1 card-title pricing-card-title">R$50<small class="text-body-secondary fw-light">/mês</small></h1>
+                            <ul class="list-unstyled mt-3 mb-4">
+                                <li>50 Curtidas por dia</li>
+                                <li>Mensagens ilimitadas</li>
+                                <li>100 Comentarios por dia</li>
+                                <li>Acesso ilimitado ao app</li>
+                            </ul>
+                            <button type="button" class="w-100 btn btn-lg btn-outline-danger">Inscreva-se</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    </section>
+
+    <section id="call-to-action">
+
+        <div class="cta-download text-center col-lg-12">
+            <h2>Encontre o seu próximo melhor amigo com nosso aplicativo exclusivo.</h2>
+            <h3>Baixe agora e comece sua jornada para encontrar o amigo ideal!</h3>
+            <button class="btn btn-dark btn-sm down-botton" type="button">
+                <i class="fa-brands fa-apple"></i> <span class="ml-2">Baixar no Apple Store</span>
+            </button>
+            <button class="btn btn-outline-light btn-sm down-botton" type="button">
+                <i class="fa-brands fa-google-play"></i> <span class="ml-2">Baixar no Google Play</span>
+            </button>
+
+        </div>
+
+    </section>
+    
+    <footer>
+        <div class="unic-footer col-lg-12 text-center">
+            <i class="fa-brands fa-facebook-f fa-sm"></i>
+            <i class="fa-brands fa-x-twitter fa-sm"></i>
+            <i class="fa-brands fa-instagram fa-sm"></i>
+            <i class="fa-solid fa-envelope fa-sm"></i>
+        <p>&copy; 2025 Unic Application. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="/bootstrap/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
