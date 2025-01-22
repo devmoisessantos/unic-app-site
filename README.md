@@ -1,4 +1,4 @@
-# Unic Application
+# Site Unic Application
 
 ## Descrição
 Este repositório contém o projeto **Unic Application**, um site de página única (Single Page Application) desenvolvido utilizando **CSS** e **Bootstrap**. 
@@ -27,7 +27,7 @@ Este projeto foi criado como parte do meu treinamento, com o objetivo de aprimor
 
 ## Estrutura de Pastas
 ```
-site-unic-application/
+unic-app-site/
 ├── assets
 │   └── static/
 │       └── images
